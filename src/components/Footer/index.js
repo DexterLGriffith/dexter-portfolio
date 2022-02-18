@@ -10,6 +10,7 @@ function Footer() {
         <div className="row">
 <p>Dexter Griffith</p>
             </div>
+            
             </div>
 </footer>
             
