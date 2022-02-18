@@ -1,4 +1,5 @@
-import "./home.css";
+import React from 'react';
+import "./about.css";
 import dexter from "../../photos/dexter2.png";
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
                 <img src={dexter} alt="" className="home-img" />
             </div>
         </div>
+        
     )
 }
 
