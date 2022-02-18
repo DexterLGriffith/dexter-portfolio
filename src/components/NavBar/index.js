@@ -27,7 +27,7 @@ function Nav(props) {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <h1 className="navbar-brand">Dexter Griffith</h1>
         <button
