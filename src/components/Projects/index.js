@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import sports from "../../photos/projectImages/sportsScriptedImage.png";
 import daytrip from "../../photos/projectImages/daytripperImage.png";
 import lift from "../../photos/projectImages/liftRiteImage.png";
+import note from "../../photos/projectImages/notetakerImage.png";
 import './project.css';
 
 
@@ -67,7 +68,7 @@ function Projects() {
         <Carousel.Item>
           <img
             className="projectArt"
-            src={sports}
+            src={note}
             alt="Sixth slide"
           />
 
