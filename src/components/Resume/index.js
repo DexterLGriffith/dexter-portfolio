@@ -6,6 +6,7 @@ import gmail from '../../photos/logos/gmail-logo.png';
 import resume from '../../photos/logos/resume-clipart.png';
 import phone from '../../photos/logos/phone.png';
 import { Row, Col, Container } from 'react-bootstrap';
+import star from '../../photos/starIcon.png';
 
 function Resume() {
     return (
@@ -86,35 +87,87 @@ function Resume() {
             <div className="professionalSkills">
                 <div className='professionalSkillsSection'>
                     <h1 className='professionalSkills1'> Professional Skills </h1>
+                    
+                    <Container>
+                        <Row>
+                        <Col sm={2}>
+                        <h5>Teamwork</h5>
+                        </Col>
+                        <Col sm={3}>
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                        </Col>
+                        </Row>
+                        <Row>
+                        <Col sm={2}>
+                            <h5>Leadership</h5>
+                        </Col>
+                        <Col sm={3}>
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                        </Col>
+                        </Row>
+                        <Row>
+                        <Col sm={2}>
+                            <h5>Adaptability</h5>
+                        </Col>
+                        <Col sm={3}>
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                        </Col>
+                        </Row>
+                        <Row>
+                        <Col sm={2}>
+                            <h5>Front End Development</h5>
+                        </Col>
+                        <Col sm={3}>
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                        </Col>
+                        </Row>
+                        <Row>
+                        <Col sm={2}>
+                            <h5>Web Development</h5>
+                        </Col>
+                        <Col sm={3}>
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                            <img src={star} alt="" className="rating" />
+                        </Col>
+                        </Row>
+
+                    </Container>
                 </div>
                 <div className='socialMediaSection'>
                     <h1 className='socialMedia'> Social Media </h1>
                     <Container>
-                        <contactRow md={4}>
-                            <Col>
+                        <Row md={4}>
+                            <Col sm={2}>
                                 <a link href="https://github.com/DexterLGriffith"><img src={github} alt="githubicon" /></a>
                             </Col>
-                        </contactRow>
-                        <contactRow md={4}>
-                            <Col>
+                            <Col sm={2}>
                                 <a link href="https://www.linkedin.com/in/dexter-griffith/"><img src={linkedin} alt="linkdinicon" style={{ height: '60px', }} /></a>
                             </Col>
-                        </contactRow>
-                        <contactRow md={4}>
-                            <Col>
+                            <Col sm={2}>
                                 <a link href="mailto:dexterlgriffith@gmail.com"><img src={gmail} alt="gmailicon" style={{ height: '60px', }} /></a>
                             </Col>
-                        </contactRow>
-                        <contactRow md={4}>
-                            <Col>
+                            <Col sm={2}>
                                 <a link href="https://zety.com/profile/dexter-griffith"><img src={resume} alt="resumeicon" style={{ height: '50px', }} /></a>
                             </Col>
-                        </contactRow>
-                        <contactRow md={4}>
-                            <Col>
-                                <a link href="tel:2143260125"><img src={phone} alt="phoneicon" style={{ height: '60px', }} /></a>
-                            </Col>
-                        </contactRow>
+                        </Row>
+
                     </Container>
 
                 </div>

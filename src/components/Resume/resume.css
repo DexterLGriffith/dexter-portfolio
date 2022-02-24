@@ -7,10 +7,13 @@
     display: flex;
     flex-direction: column;
     flex: 1.5;
+    flex-wrap: wrap;
+    align-content: center;
+
 }
 /* --- work history section ---  */
 .workHistorySection {
-    height: 60%;
+    height: 70%;
 }
 .workHistory1 { 
     display: flex;
@@ -19,7 +22,7 @@
 /* --- end work history section ---  */
 /* --- credientals section ---  */
 .proficiencySection {
-    height: 40%;
+    height: 30%;
 }
 .Credientals {
     display: flex;
@@ -30,19 +33,29 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    
 }
 
 .professionalSkillsSection {
-    height: 50%;
+    height: 70%;
+    
+}
+.professionalSkills1 {
+    display: flex;
+    justify-content: center; 
+}
+.rating {
+    height: 20px;
 }
 /* ---social media section ---  */
 .socialMediaSection {
-    height: 50%;
+    height: 30%;
 }
 .socialMedia { 
     display: flex;
     justify-content: center;
 }
+
 .col { 
     padding: 2px;
 }
