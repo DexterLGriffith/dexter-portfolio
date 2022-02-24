@@ -1,0 +1,34 @@
+.resume {
+    display: flex;
+    flex-direction: row;
+}
+.workHistory {
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+}
+.workHistorySection {
+    height: 60%;
+}
+.proficiencySection {
+    height: 40%;
+}
+.professionalSkills {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.professionalSkillsSection {
+    height: 50%;
+}
+.socialMediaSection {
+    height: 50%;
+}
+.socialMedia { 
+    display: flex;
+    justify-content: center;
+}
+.col { 
+    padding: 2px;
+}
