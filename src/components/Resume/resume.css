@@ -7,8 +7,13 @@
     flex-direction: column;
     flex: 1.5;
 }
+/* --- work history section ---  */
 .workHistorySection {
     height: 60%;
+}
+.workHistory1 { 
+    display: flex;
+    justify-content: center;
 }
 .proficiencySection {
     height: 40%;
@@ -22,6 +27,7 @@
 .professionalSkillsSection {
     height: 50%;
 }
+/* ---social media section ---  */
 .socialMediaSection {
     height: 50%;
 }
@@ -32,3 +38,4 @@
 .col { 
     padding: 2px;
 }
+/* --- end social media section ---  */

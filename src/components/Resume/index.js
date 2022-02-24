@@ -12,16 +12,63 @@ function Resume() {
         <div className='resume'>
             <div className="workHistory">
                 <div className='workHistorySection'>
-                    <h1> Work History </h1>
+                    <h1 className='workHistory1'> Work History </h1>
+                    <Container>
+                        <Row>
+                            <Col sm={2}>Parkland Hospital</Col>
+                            <Col sm={2}>04/2019 - current</Col>
+                            <Col sm={8}>Psychiatric Technician</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={2}></Col>
+                            <Col sm={2}></Col>
+                            <Col sm={8}>Lead tech</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={2}></Col>
+                            <Col sm={2}></Col>
+                            <Col sm={8}>Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity.</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={2}>Cowboys Red River</Col>
+                            <Col sm={2}>10/2016 - current </Col>
+                            <Col sm={8}>Security</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={2}></Col>
+                            <Col sm={2}></Col>
+                            <Col sm={8}>Front Door Lead</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={2}></Col>
+                            <Col sm={2}></Col>
+                            <Col sm={8}>Trained new associates in proper work procedures and customer service techniques.</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={2}>Wal-Mart</Col>
+                            <Col sm={2}>03/2011 - 04/2015 </Col>
+                            <Col sm={8}>Sales Associate</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={2}></Col>
+                            <Col sm={2}></Col>
+                            <Col sm={8}>New Associate Trainer</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={2}></Col>
+                            <Col sm={2}></Col>
+                            <Col sm={8}>Specialized in seasonal project completion</Col>
+                        </Row>
+                    </Container>
                 </div>
                 <div className='proficiencySection'>
-                    <h1> Proficiency </h1>
+                    <h1 className='proficiency'> Proficiency </h1>
                 </div>
             </div>
 
             <div className="professionalSkills">
                 <div className='professionalSkillsSection'>
-                    <h1> Professional Skills </h1>
+                    <h1 className='professionalSkills1'> Professional Skills </h1>
                 </div>
                 <div className='socialMediaSection'>
                     <h1 className='socialMedia'> Social Media </h1>
@@ -33,22 +80,22 @@ function Resume() {
                         </contactRow>
                         <contactRow md={4}>
                             <Col>
-                            <a link href="https://www.linkedin.com/in/dexter-griffith/"><img src={linkedin} alt="linkdinicon" style={{height:'60px',}}/></a>
+                                <a link href="https://www.linkedin.com/in/dexter-griffith/"><img src={linkedin} alt="linkdinicon" style={{ height: '60px', }} /></a>
                             </Col>
                         </contactRow>
                         <contactRow md={4}>
                             <Col>
-                            <a link href="mailto:dexterlgriffith@gmail.com"><img src={gmail} alt="gmailicon" style={{height:'60px',}}/></a>
+                                <a link href="mailto:dexterlgriffith@gmail.com"><img src={gmail} alt="gmailicon" style={{ height: '60px', }} /></a>
                             </Col>
                         </contactRow>
                         <contactRow md={4}>
                             <Col>
-                            <a link href="https://zety.com/profile/dexter-griffith"><img src={resume} alt="resumeicon" style={{height:'50px',}}/></a>
+                                <a link href="https://zety.com/profile/dexter-griffith"><img src={resume} alt="resumeicon" style={{ height: '50px', }} /></a>
                             </Col>
                         </contactRow>
                         <contactRow md={4}>
                             <Col>
-                            <a link href="tel:2143260125"><img src={phone} alt="phoneicon" style={{height:'60px',}}/></a>
+                                <a link href="tel:2143260125"><img src={phone} alt="phoneicon" style={{ height: '60px', }} /></a>
                             </Col>
                         </contactRow>
                     </Container>
