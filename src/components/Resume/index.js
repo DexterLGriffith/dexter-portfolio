@@ -62,7 +62,24 @@ function Resume() {
                     </Container>
                 </div>
                 <div className='proficiencySection'>
-                    <h1 className='proficiency'> Proficiency </h1>
+                    <h1 className='Credientals'> Credientals </h1>
+                    <Container>
+                        <Row>
+                            <Col sm={4}>The University of Texas at Arlington</Col>
+                            <Col sm={2}>07/2013-12/2018</Col>
+                            <Col sm={6}>BS in Psychology</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={4}></Col>
+                            <Col sm={2}></Col>
+                            <Col sm={6}>Minor in Biology</Col>
+                        </Row>
+                        <Row>
+                            <Col sm={4}>Southern Methodist University</Col>
+                            <Col sm={2}>01/2021</Col>
+                            <Col sm={6}>Full Stack Web Development Certificate</Col>
+                        </Row>
+                    </Container>
                 </div>
             </div>
 

@@ -1,6 +1,7 @@
 .resume {
     display: flex;
     flex-direction: row;
+    padding: 60px;
 }
 .workHistory {
     display: flex;
@@ -15,9 +16,16 @@
     display: flex;
     justify-content: center;
 }
+/* --- end work history section ---  */
+/* --- credientals section ---  */
 .proficiencySection {
     height: 40%;
 }
+.Credientals {
+    display: flex;
+    justify-content: center;
+}
+/* --- end of credientals section ---  */
 .professionalSkills {
     flex: 1;
     display: flex;
