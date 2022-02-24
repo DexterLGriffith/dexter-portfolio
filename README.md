@@ -8,7 +8,21 @@ This is a react based webpage portfolio of my own work. This react portfolio uti
 
 ## Tasks Completed
 
+1. Created standard react webapp using npx create-react-app. 
+2. Created running navbar within portfolio as well as a simple running footer for the project. 
+3. Created SRC folder, with components folder, as well as photos folder.
+4. Created about, contact, footer, header, navbar, projects and resume folders within the components folder to allow for each page to have its own Css file and be somewhat organized. 
+5. Added useState to allow the portfolio to change pages based off what page was selected. 
 
+        ex: if you select resume, it takes you too the resume page. 
+6. Created About page with based CSS and react bootstrap components. 
+7. Split About page to allow for easy reading of the brief statements about me, along side a picture of myself. 
+8. Created a projects page with 6 of my latest projects, all onto a carousel for easy user viewing and experience, along with links to each project. 
+9. Created Contact me page, which allows user to enter first name, last name, email, phone number and a brief comment and send each request via email, to myself. 
+10. Created a basic resume page, with work history, credentials, skills and other contact links such as github, email, and linkedin, as well as a link to my online resume. 
+11. Inserted pictures of each project, as well as added Icons for each contact section for ease of user viewing. 
+12. Adjusted parameters to increase SEO for smaller devices. 
+13. Made sure elements had good flow, and logical positioning within the portfolio. 
 
 ## Installation 
 
