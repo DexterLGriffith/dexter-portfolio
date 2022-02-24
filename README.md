@@ -4,7 +4,7 @@ Dexter Griffith's react portfolio.
 
 ## Description 
 
-
+This is a react based webpage portfolio of my own work. This react portfolio utilizes all previous learned knowledge to create a fully functioning react portfolio, complete with a single header, footer and navbar that appears on multiple pages within the portfolio. it includes a contact me section, which allows the user to contact the user and a brief resume section, along with links to all other finished projects. 
 
 ## Tasks Completed
 
